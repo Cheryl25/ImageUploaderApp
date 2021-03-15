@@ -1,34 +1,27 @@
-.login-header{
-    font-size: 30px;
+.login-card-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.login-card{
-    display: block;
-    position: relative;
-    top: 10%;
-    bottom: 40%;
-    left: 37%;
-    right: 40%;
-    height: fit-content;
-    width: 30%;
-    overflow: visible;
-    border-radius: 4px;
-    outline: none;
-    padding: 20px 40px;
+.login-card {
+    width: 400px;
+    margin-top: 10px;
 }
 
-.dispNone{
+.login-form-control {
+    width: 350px;
+}
+
+.display-none {
     display: none;
 }
 
-.dispBlock{
+.display-block {
     display: block;
 }
 
-.red{
+.form-helper-text-red-color {
     color: red;
 }
 
-.login-btn{
-    cursor: pointer;
-}
