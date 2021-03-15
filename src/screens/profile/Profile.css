@@ -1,161 +1,83 @@
-.profile-image {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    margin-top: 35px;
+#profile-pic {
+    width: 100px;
+    height: 100px;
+    border: 1px solid whitesmoke;
 }
 
-.profile-summary {
-    margin: 50px 0 0 270px;
+#modal-profile-pic{
+    width: 65px;
+    height: 65px;
+    border: 1px solid whitesmoke;
 }
 
-.profile-summary-1 {
-    margin: 80px 0 0 10px;
+#edit-profile {
+    width: 35px;
+    height: 30px;
+    margin-left: 10px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
+#user_name{
+    margin: 10px;
 }
 
-.left {
-    width: 30%;  
-}
-
-.right {
-     width: 70%;  
-}
-
-.spacing {
-    margin-left: 70px;
-}
-
-.top-spacing {
-    margin-top: 20px;
-}
-
-.top {
-    top: 20%;
-}
-
-.bottom {
-    bottom: 80%;
-}
-
-.dispBlock {
-    display: block;
-}
-
-.dispNone {
-    display: none;
-}
-
-.red {
-    color: red;
-}
-
-.image-margins {
-    margin: 0 100px 0 100px
-}
-
-.image-modal {
-    top: 20px;
-    bottom: 20px;
+.edit-modal-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
     background-color: white;
-    width: 60px;
-    height: 60px;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+
 }
 
-.modal-left {
-    float: left;
-    width: 50%;
-    height: 100%;
-    margin-left: 10;
-    margin-top: 10
+.selected-image-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    box-shadow: black;
+    inline-size: fit-content;
 }
 
-.clicked-image {
-    margin-top: 10px;
-    height: 80%;
-    width: 95%;
+.add-button-grid {
+    vertical-align: bottom;
+    inline-size: fit-content;
 }
 
-.modal-right {
-    float: right;
-    width: 50%;
-    height: 100%;
+.add-button {
+    vertical-align: bottom;
+    inline-size: fit-content;
 }
 
-.right-top {
-    height: 15%;
-    margin-left: 10px;
+.comment-section {
+    min-height: 280px;
 }
 
-.right-middle {
-    margin-top: 10px;
-    height: 50%;
-    margin-left: 10px;
+.comment-add-section {
+    vertical-align: bottom;
 }
 
-.right-botton {
-    height: 10%;
-    margin-left: 10px;
+.user-detail-section {
+    vertical-align: top;
+
 }
 
-.modal-profile-icon {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+.divider{
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
-.modal-username {
-    margin-top: 10px;
-    margin-left: 10px;
-    position: absolute; 
-}
-
-.image-hashtags {
-    color: rgb(122,188,255);
-}
-
-.image-liked-icon{
-    color:red; 
-}
-
-.image-like-icon{
-    color: black;
-}
-
-.comments-block {
-    margin-top: 15px;
-}
-
-.comment-display{
+.right-part{
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    flex-direction: column;
+    justify-content:space-between;
 }
 
-.comment-text{
-    padding-left:10px;
-    width:100%;
-}
 
-.comment-username{
-    font-size: inherit;
-}
 
-@media (max-width: 992px) {
-    .flex-container {
-        flex-direction: row;
-    }
-    .left {
-        width: 100%;
-    }
-    .right {
-        width: 90%;
-    }
-    .image-grid-item {
-        margin: 8px;
-    }
-}
